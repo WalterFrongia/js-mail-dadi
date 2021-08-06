@@ -15,9 +15,8 @@ console.log(emailSaveSistem);
 // 3. Creare un messaggio appropriato per l'utente.
 
 if(userEmail != emailSaveSistem[0]){
-    for( var i = 0; i<4; i++){
-        alert("ERRORE QUESTA EMAIL NON E' NEL SISTEMA")
-    }
+    
+    alert("ERRORE QUESTA EMAIL NON E' NEL SISTEMA")
 
 } else{
     alert("EMAIL CORRETTA")
